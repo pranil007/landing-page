@@ -35,6 +35,8 @@
     <!-- Theme Dark CSS -->
     <link rel="stylesheet" href="assets/css/theme-dark.css">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <!-- Title -->
     <title>Zee Jayashree New Project In Vile Parle East | Zee Infra Group</title>
 
@@ -61,26 +63,18 @@
 <div class="g-recaptcha" data-sitekey="6LcNBY8gAAAAAIy0Y_UCqRzXsd26TTrKpfzI5z7W" data-badge="inline" data-size="invisible" data-callback="setResponse"></div>
 
 
- <a style="bottom: 190px; right: 25px; position:fixed; z-index:10;font-size: 30px;color: #000000;" href="https://www.facebook.com/zeejayashree" target="_blank"> <i class='bx bxl-facebook' style="background-image: linear-gradient(#2c4c59 , #3d6f92);
-    color: #fff;padding: 3px;"></i></a>
+ <!-- floating icons -->
+<div class="social-box">
+<div class="social-box-data">
+<ul>
+<li><a href="mailto:demo@example.com"><img src="assets/img/email.svg"></a></li>
+<li><a href="tel:+912269697777"><img src="assets/img/telephone.svg"></a></li>
+<li><a href="https://wa.me/1234567890"><img src="assets/img/whatsapp.svg"></a></a></li>
+<li><a href="#" class="button" data-modal="modalZero"><img src="assets/img/brochure.png"></a></li>
+</ul>
+</div>
+</div>
 
-     <a style="bottom: 150px; right: 25px; position:fixed; z-index:10;font-size: 30px;color: #000000;" href="https://www.instagram.com/zeejayashree/" target="_blank"> <i class='bx bxl-instagram' style="background-image: linear-gradient(#2c4c59 , #3d6f92);
-    color: #fff;padding: 3px;"></i></a>
-
-
-    <a style="bottom:20px; left:25px; position:fixed; z-index:10" id="whatsapp_button" onclick="openWA()">
-    <img style="height:55px; width:55px;" src="assets/img/whatsapp-logo.png" alt="WhatsApp chat">
-    </a>
-
-    <a style="bottom: 110px; right: 25px; position:fixed; z-index:10;font-size: 30px;color: #000000;" id="myBtn"> <i class='bx bx-download' style="background-image: linear-gradient(#2c4c59 , #3d6f92);
-    color: #fff;padding: 3px;"></i></a>
-
-    <!-- <a style="bottom: 130px; right: 30px; position:fixed; z-index:10;font-size: 30px;color: #000000;" href="mailto:info@demo.com"> <i class="flaticon-email"></i></a> -->
-
-    <!-- <a style="bottom: 130px; right: 30px; position:fixed; z-index:10;font-size: 30px;color: #000000;" href="mailto:info@demo.com"> <i class="flaticon-email"></i></a> -->
-
-    <a style="bottom: 70px; right: 25px; position:fixed; z-index:10;font-size: 30px;color: #000000;" href="tel:  +91-7777017310"> <i class="bx bx-phone" style="background-image: linear-gradient(#2c4c59 , #3d6f92);
-    color: #fff;padding: 3px;"></i></a>
 
     
 
@@ -100,14 +94,14 @@
     <!-- Start Navbar Area -->
     <div class="navbar-area">
         <!-- Menu For Mobile Device -->
-        <div class="mobile-nav">
+       <div class="mobile-nav">
             <a href="index.html" class="logo">
                 <img src="assets/img/logo.png" class="logo-one" alt="Logo">
                 <img src="assets/img/logo.png" class="logo-two" alt="Logo">
             </a>
             <div class="side-btn-area">
     <a href="tel:  +91-7777017310" class="call-btn">
-        <i class='bx bx-phone'></i>91-77770 17310 
+        <i class='bx bx-phone'></i>+91-77770 17310
     </a>
 </div>
         </div>
@@ -131,7 +125,7 @@
                             </li>
                             <li class="nav-item">
                                 <a href="#about" class="nav-link">
-                                    About Jayashree
+                                    About Us
                                 </a>
                             </li>
                             <li class="nav-item">
@@ -145,27 +139,33 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="#location" class="nav-link">
-                                    Location
+                                <a href="#contact-us" class="nav-link">
+                                    Contact Us
                                 </a>
                             </li>
-                            <li class="nav-item">
+                           <li class="nav-item">
                                 <a href="#gallery" class="nav-link">
                                     Gallery
                                 </a>
-                            </li>
+                            </li> 
                         </ul>
 
                         <div class="side-btn-area">
-                            <a href="tel:  +91-7777017310" class="call-btn">
+                            <a href="tel: +91-1234567890" class="call-btn">
                                 <i class='bx bx-phone'></i>
-                                +91-77770 17310 / +91-77100 88928 
+                                 +91-1234567890
                             </a>
                         </div>
-                        
+
+                       <!-- <div class="side-btn-area">
+                            <a href="tel: +91-7208176844" class="call-btn">
+                                <i class='bx bx-phone'></i>
+                                
+                            </a>
+                         </div> -->
 
                         <div class="appointment-btn">
-                           <button id="myBtn2" class="default-btn default-bg-buttercup"> Brochure <i class='bx bx-download'></i></button>
+                           <button data-modal="modalZero" class="default-btn default-bg-buttercup button">Brochure <i class='bx bx-download'></i></button>
                         </div>
                         
                     </div>
@@ -175,20 +175,26 @@
     </div>
     <!-- End Navbar Area -->
     <!-- Property Area -->
-    <div class="service-area pt-0 pb-0">
+     <div class="service-area pt-0 pb-0">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-9 ps-0">
+                
+
+
+
+                <div class="col-lg-9 ps-0" style="padding: 0px;">
                     <!-- Home Slider Area -->
                     <div class="home-slider-area">
                         <div class="container-fluid m-0 p-0">
                             
                             <div class="home-slider owl-carousel owl-theme">
+
                                 <div class="slider-item">
                                     <div class="home-slider-img">
                                         <img src="assets/img/home1/1.jpg" alt="Images">
 
                                     </div>
+
                                 </div>
                                 <div class="slider-item">
                                     <div class="home-slider-img">
@@ -204,12 +210,15 @@
                                     </div>
                                 </div>
 
+                              
+
 
                             </div>
                         </div>
                     </div>
                     <!-- Home Slider Area End -->
                 </div>
+
 
                 <div class="col-lg-3">
                     <div class="contact-option">
@@ -224,30 +233,30 @@
                                     <div class="col-lg-12 col-sm-12">
                                         <div class="form-group">
                                             <i class='bx bx-user'></i>
-                                            <input type="text" name="idname" id="name" class="form-control" required  placeholder="Name*">
+                                            <input type="text" name="idname" id="idname" class="form-control" required data-error="Please enter your name" placeholder="Name*">
                                         </div>
                                     </div>
 
                                     <div class="col-lg-12 col-sm-12">
                                         <div class="form-group">
                                             <i class='bx bx-user'></i>
-                                            <input type="email" name="idemail" id="email" class="form-control" required  placeholder="Email*">
+                                            <input type="email" name="idemail" id="idemail" class="form-control" required data-error="Please enter your email" placeholder="Email*">
                                         </div>
                                     </div>
 
                                     <div class="col-lg-12 col-sm-12">
                                         <div class="form-group">
                                             <i class='bx bx-phone'></i>
-                                            <input type="text" name="idphone" id="phone_number"  class="form-control" placeholder="Phone*">
+                                            <input type="text" name="idphone" id="idphone" required data-error="Please enter your number" class="form-control" placeholder="Phone*">
                                         </div>
                                     </div>
 
                                     <div class="col-lg-12 col-sm-12">
                                         <div class="form-group">
-                                            <select name="idproperty_type" id="property_type" classs="form-control">
-                                                <option value="1BHK">1BHK </option>
-                                                 <option value="2BHK">2BHK </option>
-                                                  <option value="3BHK">3BHK </option>
+                                            <select name="idproperty_type" id="idproperty_type" classs="form-control">
+                                                <option value="2BHK">2BHK </option>
+                                                <option value="3BHK">3BHK </option>
+                                                <option value="4BHK">4BHK </option>
                                                 
                                             </select>
                                         </div>
@@ -256,7 +265,7 @@
                                     <div class="col-lg-12 col-md-12">
                                         <div class="form-group">
                                             <i class='bx bx-envelope'></i>
-                                            <textarea name="idmessage" class="form-control" id="message" rows="3"  placeholder="Any additional information?*"></textarea>
+                                            <textarea name="idmessage" class="form-control" id="message" rows="3" required data-error="Write your message" placeholder="Any additional information?*"></textarea>
                                         </div>
                                     </div>
 
@@ -276,12 +285,12 @@
                                    </div>
                                 </div>
                             </form>
-                            <!-- <h4 class="text-center text-black">FANTASTIC OFFERS</h4> -->
-                                
+                            
 
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </div>
@@ -308,48 +317,10 @@
                         </div>
                         <br>
                         <div class="appointment-btn">
-                           <!--  <a href="#" class="default-btn default-bg-buttercup">
-                                Request Brochure
-                                <i class='bx bx-download'></i>
-                            </a> -->
-                            <button id="myBtn3" class="default-btn default-bg-buttercup">Download Brochure <i class='bx bx-download'></i></button>
+                           
+                            <button data-modal="modalZero" class="default-btn default-bg-buttercup button">Download Brochure <i class='bx bx-download'></i></button>
                         </div>
 
-                        <!-- <div class="property-counter">
-                           <div class="row">
-                               <div class="col-lg-3 col-sm-6 col-md-3">
-                                   <div class="counter-card counter-card-rs">
-                                       <h2>12</h2>
-                                       <h3>MINUTES</h3>
-                                       <span>Sport City Center</span>
-                                   </div>
-                               </div>
-
-                               <div class="col-lg-3 col-sm-6 col-md-3">
-                                   <div class="counter-card counter-card-rs">
-                                       <h2>20</h2>
-                                       <h3>MINUTES DRIVE</h3>
-                                       <span>Sport City Center</span>
-                                   </div>
-                               </div>
-
-                               <div class="col-lg-3 col-sm-6 col-md-3">
-                                   <div class="counter-card counter-card-rs-2">
-                                       <h2>16</h2>
-                                       <h3>MINUTES</h3>
-                                       <span>Swimming Pool</span>
-                                   </div>
-                               </div>
-
-                               <div class="col-lg-3 col-sm-6 col-md-3">
-                                   <div class="counter-card">
-                                       <h2>10</h2>
-                                       <h3>MINUTES</h3>
-                                       <span>Shopping Mall</span>
-                                   </div>
-                               </div>
-                           </div>
-                        </div> -->
                     </div>
                 </div>
             </div>
@@ -357,6 +328,45 @@
         </div>
     </div>
     <!-- Property Area End -->
+
+    <div class="about-area pt-100 pb-70">
+<div class="container">
+<div class="row align-items-center">
+<div class="col-lg-6">
+<div class="about-content">
+<div class="section-title-two">
+<span class="section-span-bg2">Our mission & vission</span>
+<h2>Working For You</h2>
+<p>
+Lorem ipsum dolor sit ame consectetur adipisicing eli sed usmod tempor
+incididunt ut labore et dolore magnaenim minim veniaquis nostrud exercitation
+</p>
+</div>
+<div class="row">
+<div class="col-lg-6 col-sm-6">
+<div class="about-card">
+<h3>Our Strategy</h3>
+<p>Lorem ipsum dolor sitameem adipiscing cnsectetur adimod tur adipiscing</p>
+</div>
+</div>
+<div class="col-lg-6 col-sm-6">
+<div class="about-card">
+<h3>Our Mission</h3>
+<p>Lorem ipsum dolor sitameem adipiscing cnsectetur adimod tur adipiscing</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-6">
+<div class="about-img">
+<img src="assets/img/about-img.jpg" alt="Images">
+</div>
+</div>
+</div>
+</div>
+</div>
+
     <!--<div class="property-details">
         <div class="container">
             <div class="property-details-list">
@@ -461,11 +471,10 @@
         <div class="container-fluid">
         <div class="container-max">
         <div class="property-section-text">
-        <div class="section-title">
-        <span>The areas</span>
+        <div class="section-title-two text-left">
         <h2>
-        The Area Of Property
-        <b>Get It Know</b>
+        <span class="section-span-bg2"></span>The Property
+        <b>Get Know</b><span class="section-span-bg3"></span>
         </h2>
         </div>
         </div>
@@ -526,9 +535,7 @@
         <i class="bx bx-right-arrow-alt"></i>
         Learn More
         </a>
-        <div class="plus-dots">
-        <img src="assets/img/property/plus-dots.png" alt="Images">
-        </div>
+        
         </div>
         </div>
         </div>
@@ -548,86 +555,127 @@
 <div class="container">
     <div class="section-title-two text-center">
 <!-- <span class="section-span-bg">ROOM DETAILS</span> -->
-<h2 class="margin-auto">Amazing<b class="section-color2"> Amenities</b></h2>
+<h2 class="margin-auto"><span class="section-span-bg2"></span>Amazing<b class="section-color2"> Amenities</b><span class="section-span-bg3"></span></h2>
 </div>
     <div class="section-title text-center">
 
     <p class="text-center">As with planning every other part of the house, these amenities were chosen with a lot of care
 to ensure that your home is a dream home.</p>
 </div>
-<div class="row pt-45">
-<div class="col-lg-3 col-sm-6">
-<div class="service-card service-card-bg-two active">
-<!-- <i class="flaticon-bankrupt"></i> -->
-<img src="assets/img/home-svg.svg"><br>
-<p class="text-break">As with planning every other part of the house, these amenities were chosen with a lot of care to ensure that your home is a dream home.</p>
-
+<div class="efficiency-area pb-70">
+<div class="container">
+<div class="row">
+<div class="col-lg-3 col-md-6">
+<div class="efficiency-card">
+<h3>Sophisticated Door</h3>
+<p>Lorem ipsum dolor sit amet, consectetur isicing elit, est, qui dolorem ipsum</p>
+<i class="flaticon-buildings"></i>
 </div>
 </div>
-
-<div class="col-lg-3 col-sm-6">
-<div class="service-card service-card-bg-two section-bg">
-<!-- <i class="flaticon-time-management"></i> -->
-<img src="assets/img/cctv-svg.svg"><br>
-<p class="text-break">Round-the-dock security with CCTV camera and designated security guards</p><br>
-
+<div class="col-lg-3 col-md-6">
+<div class="efficiency-card">
+<h3>Sophisticated Door</h3>
+<p>Lorem ipsum dolor sit amet, consectetur isicing elit, est, qui dolorem ipsum</p>
+<i class="flaticon-buildings"></i>
 </div>
 </div>
-<div class="col-lg-3 col-sm-6">
-<div class="service-card service-card-bg-two active">
-<!-- <i class="flaticon-house"></i> -->
-<img src="assets/img/gym-svg.svg"><br>
-
-<p class="text-break">An in-house gym and yoga centre because health comes first!</p><br><br>
-
+<div class="col-lg-3 col-md-6">
+<div class="efficiency-card">
+<h3>Sophisticated Door</h3>
+<p>Lorem ipsum dolor sit amet, consectetur isicing elit, est, qui dolorem ipsum</p>
+<i class="flaticon-buildings"></i>
 </div>
 </div>
-<div class="col-lg-3 col-sm-6">
-<div class="service-card service-card-bg-two section-bg">
-<!-- <i class="flaticon-value"></i> -->
-<img src="assets/img/terrace-svg.svg"><br>
-
-<p class="text-break">A sprawling terrace</p><br><br><br>
-
- </div>
-</div>
-
-<div class="col-lg-3 col-sm-6">
-<div class="service-card service-card-bg-two section-bg">
-<!-- <i class="flaticon-house"></i> -->
-<img src="assets/img/walk-svg.svg"><br>
-
-<p class="text-break">Built through a special walking track and ample space to relax and do your morning yoga</p>
-
+<div class="col-lg-3 col-md-6">
+<div class="efficiency-card">
+<h3>Sophisticated Door</h3>
+<p>Lorem ipsum dolor sit amet, consectetur isicing elit, est, qui dolorem ipsum</p>
+<i class="flaticon-buildings"></i>
 </div>
 </div>
-
-
-<div class="col-lg-3 col-sm-6">
-<div class="service-card service-card-bg-two active">
-<!-- <i class="fa-solid fa-camera-cctv"></i> -->
-<img src="assets/img/parking-svg.svg">
-
-<p class="text-break">An in-built parking space, with sufficient allotments.</p><br>
-
+<div class="col-lg-3 col-md-6">
+<div class="efficiency-card">
+<h3>Sophisticated Door</h3>
+<p>Lorem ipsum dolor sit amet, consectetur isicing elit, est, qui dolorem ipsum</p>
+<i class="flaticon-buildings"></i>
 </div>
 </div>
-
-
-
+<div class="col-lg-3 col-md-6">
+<div class="efficiency-card">
+<h3>Sophisticated Door</h3>
+<p>Lorem ipsum dolor sit amet, consectetur isicing elit, est, qui dolorem ipsum</p>
+<i class="flaticon-buildings"></i>
+</div>
+</div>
+<div class="col-lg-3 col-md-6">
+<div class="efficiency-card">
+<h3>Sophisticated Door</h3>
+<p>Lorem ipsum dolor sit amet, consectetur isicing elit, est, qui dolorem ipsum</p>
+<i class="flaticon-buildings"></i>
+</div>
+</div>
+<div class="col-lg-3 col-md-6 offset-md-3 offset-lg-0">
+<div class="efficiency-card">
+<h3>Sophisticated Door</h3>
+<p>Lorem ipsum dolor sit amet, consectetur isicing elit, est, qui dolorem ipsum</p>
+<i class="flaticon-buildings"></i>
+</div>
+</div>
+</div>
+</div>
 </div>
 </div>
 </div>
  
+  <!-- Testimonial Area -->
+     <div class="service-area ptb-70 bg-light">
+        <div class="container">
+            <div class="section-title-two text-center">
+                <h2 class="margin-auto"><span class="section-span-bg2"></span>What Residents <b class="section-color2">Say </b><span class="section-span-bg3"></span></h2>
+            </div>
+            <div class="testimonial-slider owl-carousel owl-theme">
+     
+                <div class="testimonial-item">
+                    <h3>Very Much Useful Support</h3>
+                    <p>
+                        short description goes here, short description goes here .short description goes here.
+                    </p>
+                </div>
+
+ 
+                <div class="testimonial-item">
+                    <h3>Very Much Useful Support</h3>
+                    <p>
+                        short description goes here, short description goes here .short description goes here.
+                    </p>
+                </div>
+
+        
+                <div class="testimonial-item">
+                    <h3>Very Much Useful Support</h3>
+                    <p>
+                        short description goes here, short description goes here .short description goes here.
+                    </p>
+                </div>
+
+                <div class="testimonial-item">
+                    <h3>Very Much Useful Support</h3>
+                    <p>
+                        short description goes here, short description goes here .short description goes here.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
 
     
 
 
-<div class="room-details-area pt-00 pb-70" id="floor-plans">
+<div class="room-details-area pt-100 pb-70" id="floor-plans">
 <div class="container-fluid m-0 p-0">
     <div class="section-title-two text-center">
 <!-- <span class="section-span-bg">ROOM DETAILS</span> -->
-<h2 class="margin-auto">Floor<b class="section-color2"> Plans</b></h2>
+<h2 class="margin-auto"><span class="section-span-bg2"></span>Floor<b class="section-color2"> Plans</b><span class="section-span-bg3"></span></h2>
 </div>
 
 <div class="container">
@@ -651,7 +699,7 @@ to ensure that your home is a dream home.</p>
 <div class="single-gallery">
     <img src="assets/img/gallery/fp1.png" alt="Images">
         <a href="assets/img/gallery/fp1.png" class="gallery-icon">
-            <i class='bx bx-plus'></i>
+            <i class='fa fa-search-plus'></i>
         </a>
 </div>
 </div>
@@ -667,7 +715,7 @@ to ensure that your home is a dream home.</p>
 <div class="single-gallery">
     <img src="assets/img/gallery/2bhk-742.png" alt="Images">
         <a href="assets/img/gallery/2bhk-742.png" class="gallery-icon">
-            <i class='bx bx-plus'></i>
+            <i class='fa fa-search-plus'></i>
         </a>
 </div>
 </div>
@@ -682,7 +730,7 @@ to ensure that your home is a dream home.</p>
 <div class="single-gallery">
     <img src="assets/img/gallery/gallery-5.png" alt="Images">
         <a href="assets/img/gallery/gallery-5.png" class="gallery-icon">
-            <i class='bx bx-plus'></i>
+            <i class='fa fa-search-plus'></i>
         </a>
 </div>
 </div>
@@ -696,7 +744,7 @@ to ensure that your home is a dream home.</p>
 <div class="single-gallery">
     <img src="assets/img/gallery/3bhk.png" alt="Images">
         <a href="assets/img/gallery/3bhk.png" class="gallery-icon">
-            <i class='bx bx-plus'></i>
+            <i class='fa fa-search-plus'></i>
         </a>
 </div>
 </div>
@@ -715,7 +763,7 @@ to ensure that your home is a dream home.</p>
 <div class="single-gallery">
     <img src="assets/img/gallery/gallery-4.png" alt="Images">
         <a href="assets/img/gallery/gallery-4.png" class="gallery-icon">
-            <i class='bx bx-plus'></i>
+            <i class='fa fa-search-plus'></i>
         </a>
 </div>
 </div>
@@ -735,7 +783,7 @@ to ensure that your home is a dream home.</p>
 <div class="single-gallery">
     <img src="assets/img/gallery/2bhk-687.png" alt="Images">
         <a href="assets/img/gallery/2bhk-687.png" class="gallery-icon">
-            <i class='bx bx-plus'></i>
+            <i class='fa fa-search-plus'></i>
         </a>
 </div>
 </div>
@@ -748,6 +796,18 @@ to ensure that your home is a dream home.</p>
 
 
 <div class="room-details-content">
+<div class="gallery-view ">
+<div class="single-gallery">
+    <img src="assets/img/gallery/gallery-6.png" alt="Images">
+        <a href="assets/img/gallery/gallery-6.png" class="gallery-icon">
+            <i class='fa fa-search-plus'></i>
+        </a>
+</div>
+</div>
+<h3>2 BHK (RERA Area : 687 sq.ft) 3D </h3>
+</div>
+
+<div class="room-details-content">
 
 
 
@@ -755,13 +815,27 @@ to ensure that your home is a dream home.</p>
 <div class="single-gallery">
     <img src="assets/img/gallery/gallery-6.png" alt="Images">
         <a href="assets/img/gallery/gallery-6.png" class="gallery-icon">
-            <i class='bx bx-plus'></i>
+            <i class='fa fa-search-plus'></i>
         </a>
 </div>
 </div>
 <h3>2 BHK (RERA Area : 687 sq.ft) 3D </h3>
 </div>
 
+<div class="room-details-content">
+
+
+
+<div class="gallery-view ">
+<div class="single-gallery">
+    <img src="assets/img/gallery/gallery-6.png" alt="Images">
+        <a href="assets/img/gallery/gallery-6.png" class="gallery-icon">
+            <i class='fa fa-search-plus'></i>
+        </a>
+</div>
+</div>
+<h3>2 BHK (RERA Area : 687 sq.ft) 3D </h3>
+</div>
 
 
 
@@ -791,46 +865,7 @@ to ensure that your home is a dream home.</p>
 
 
     
-    <!-- Room Details Area End -->
-    <!-- Testimonial Area -->
-     <!--<div class="service-area ptb-70 bg-light">
-        <div class="container">
-            <div class="section-title-two text-center">
-                <span class="section-span-bg2">Testimonials</span>
-                <h2 class="margin-auto">What Residents <b class="section-color2">Say </b></h2>
-            </div>
-            <div class="testimonial-slider owl-carousel owl-theme">
-                <div class="testimonial-item">
-                    <h3>A Precious Journey</h3>
-                    <p>
-                        short description goes here, short description goes here .short description goes here
-                    </p>
-                </div>
-
-                <div class="testimonial-item">
-                    <h3>Very Much Useful Support</h3>
-                    <p>
-                        short description goes here, short description goes here .short description goes here
-                    </p>
-                </div>
-
-                <div class="testimonial-item">
-                    <h3>Awesome Experiences Ever</h3>
-                    <p>
-                        short description goes here, short description goes here .short description goes here
-                    </p>
-                </div>
-
-                <div class="testimonial-item">
-                    <h3>Very Much Useful Support</h3>
-                    <p>
-                        short description goes here, short description goes here .short description goes here.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    Testimonial Area End -->
+    
 
 
 
@@ -845,8 +880,9 @@ to ensure that your home is a dream home.</p>
 <div class="row align-items-center pt-45">
 <div class="col-lg-5">
 <div class="house-content-two margin-left">
-
-<h2>Nearby <b><i>Facilities</i></b></h2>
+<div class="section-title-two text-left">
+<h2><span class="section-span-bg2"></span>Nearby <b><i>Facilities</i></b><span class="section-span-bg3"></span></h2>
+</div>
 <ul class="house-list">
 <li>&#8226; Walking distance away from a hospital and pharmacy </li>
 <li>&#8226; Surrounded by a plethora of restaurants and major banks</li>
@@ -868,7 +904,7 @@ to ensure that your home is a dream home.</p>
 <div class="single-gallery">
     <img src="assets/img/gallery/Jayashree-map.jpg" alt="Images">
         <a href="assets/img/gallery/Jayashree-map.jpg" class="gallery-icon">
-            <i class='bx bx-plus'></i>
+            <i class='fa fa-search-plus'></i>
         </a>
 </div>
 </div>
@@ -885,7 +921,7 @@ to ensure that your home is a dream home.</p>
         <div class="container">
             <div class="section-title-two text-center">
                 <!-- <span class="section-span-bg2">GALLERY</span> -->
-                <h2 class="margin-auto">Jayashree <b class="section-color2">Gallery</b></h2>
+                <h2 class="margin-auto"><span class="section-span-bg2"></span>Jayashree <b class="section-color2">Gallery</b><span class="section-span-bg3"></span></h2>
             </div>
 
             <div class="gallery-view pt-45">
@@ -895,7 +931,7 @@ to ensure that your home is a dream home.</p>
                         <div class="single-gallery">
                             <img src="assets/img/gallery/gallery-3.jpg" alt="Images">
                             <a href="assets/img/gallery/gallery-3.jpg" class="gallery-icon">
-                                <i class='bx bx-plus'></i>
+                                <i class='fa fa-search-plus'></i>
                             </a>
                         </div>
                     </div>
@@ -904,7 +940,7 @@ to ensure that your home is a dream home.</p>
                         <div class="single-gallery">
                             <img src="assets/img/gallery/gallery-2.jpg" alt="Images">
                             <a href="assets/img/gallery/gallery-2.jpg" class="gallery-icon">
-                                <i class='bx bx-plus'></i>
+                                <i class='fa fa-search-plus'></i>
                             </a>
                         </div>
                     </div>                 
@@ -912,7 +948,7 @@ to ensure that your home is a dream home.</p>
                         <div class="single-gallery">
                             <img src="assets/img/gallery/gallery-7.jpg" alt="Images">
                             <a href="assets/img/gallery/gallery-7.jpg" class="gallery-icon">
-                                <i class='bx bx-plus'></i>
+                                <i class='fa fa-search-plus'></i>
                             </a>
                         </div>
                     </div>
@@ -920,41 +956,51 @@ to ensure that your home is a dream home.</p>
                         <div class="single-gallery">
                             <img src="assets/img/room-details/hall.jpg" alt="Images">
                             <a href="assets/img/room-details/hall.jpg" class="gallery-icon">
-                                <i class='bx bx-plus'></i>
+                                <i class='fa fa-search-plus'></i>
                             </a>
                         </div>
                     </div>
 
 
 
-                  
-
-                    
-
-
-                 
-
-                    
+              
                        
 
                     <div class="col-lg-3 col-sm-6">
                         <div class="single-gallery">
                             <img src="assets/img/room-details/bedroom.jpg" alt="Images">
                             <a href="assets/img/room-details/bedroom.jpg" class="gallery-icon">
-                                <i class='bx bx-plus'></i>
+                                <i class='fa fa-search-plus'></i>
                             </a>
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-sm-6">
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="single-gallery">
+                                <img src="assets/img/room-details/bathroom.jpg" alt="Images">
+                                <a href="assets/img/room-details/bathroom.jpg" class="gallery-icon">
+                                    <i class='fa fa-search-plus'></i>
+                                </a>
+                            </div>
+                         </div> 
+                      
+                         <div class="col-lg-3 col-sm-6">
                         <div class="single-gallery">
                             <img src="assets/img/room-details/bathroom.jpg" alt="Images">
                             <a href="assets/img/room-details/bathroom.jpg" class="gallery-icon">
-                                <i class='bx bx-plus'></i>
+                                <i class='fa fa-search-plus'></i>
                             </a>
                         </div>
                      </div> 
                   
+                   <div class="col-lg-3 col-sm-6">
+                        <div class="single-gallery">
+                            <img src="assets/img/room-details/bathroom.jpg" alt="Images">
+                            <a href="assets/img/room-details/bathroom.jpg" class="gallery-icon">
+                                <i class='fa fa-search-plus'></i>
+                            </a>
+                        </div>
+                     </div> 
                   
 
 
@@ -968,7 +1014,7 @@ to ensure that your home is a dream home.</p>
     <!-- Gallery Area End -->
 
     
-    <div class="newsletter-area pt-100 pb-70">
+    <div class="newsletter-area">
         <div class="container">
         <div class="row">
         <div class="col-lg-7">
@@ -997,15 +1043,7 @@ to ensure that your home is a dream home.</p>
     <div class="service-area ptb-70 bg-light" id="footer">
         <div class="container">
             <div class="row ">
-                <div class="col-lg-3">
-                    <div class="property-item">
-                        <div class="section-title-two ">
-                            <span class="section-span-bg2">SITE ADDRESS</span>
-                            <p>Prarthana Samaj Road, Vile Parle (East), Mumbai 400057. </p>
-                        </div>
-                        
-                    </div>
-                </div>
+                
                 <div class="col-lg-3">
                     <div class="property-item">
                         <div class="section-title-two ">
@@ -1048,6 +1086,16 @@ to ensure that your home is a dream home.</p>
 
                 
                 </div>
+
+                <div class="col-lg-3">
+                    <div class="property-item">
+                        <div class="section-title-two ">
+                            <span class="section-span-bg2">SITE ADDRESS</span>
+                            <iframe src="https://www.google.com/maps/d/embed?mid=1is1Q721fhRucDQQIKYOnEjDyddjdQBE&hl=en&ehbc=2E312F" width="100%" height="250px"></iframe>
+                        </div>
+                        
+                    </div>
+                </div>
                 
             </div>
 
@@ -1056,7 +1104,7 @@ to ensure that your home is a dream home.</p>
     <!-- Property Area End -->
   
 <!-- The Modal -->
-<div id="myModal" class="modal">
+<div id="modalZero" class="modal">
 
   <!-- Modal content -->
   <div class="modal-content">
@@ -1159,90 +1207,7 @@ document.querySelector("#close").addEventListener("click", function(){
     </script>
 
 
-<script>
-// Get the modal
-var modal = document.getElementById("myModal");
 
-// Get the button that opens the modal
-var btn = document.getElementById("myBtn");
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks the button, open the modal 
-btn.onclick = function() {
-  modal.style.display = "block";
-}
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
-}
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}
-</script>
-
-
-<script>
-// Get the modal
-var modal = document.getElementById("myModal");
-
-// Get the button that opens the modal
-var btn = document.getElementById("myBtn2");
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks the button, open the modal 
-btn.onclick = function() {
-  modal.style.display = "block";
-}
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
-}
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}
-</script>
-
-<script>
-// Get the modal
-var modal = document.getElementById("myModal");
-
-// Get the button that opens the modal
-var btn = document.getElementById("myBtn3");
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks the button, open the modal 
-btn.onclick = function() {
-  modal.style.display = "block";
-}
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
-}
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}
-</script>
     <!-- Jquery Min JS -->
     <script src="assets/js/jquery.min.js"></script>
     <!-- Bootstrap Min JS -->
