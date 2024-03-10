@@ -63,17 +63,35 @@ This files table contents are outlined below>>>>>
 /*================================================
 Default CSS
 =================================================*/
-@import url("https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+/*@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');*/
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 body {
   font-size: 16px;
   line-height: 1.8;
- /* font-family: "Roboto", sans-serif;*/
+  font-family: "Poppins", sans-serif;
   color: #000000;
+  font-weight: 400;
+}
+body{
+
+      font-size: 16px;
+    line-height: 26px;
+    font-family: "Poppins", sans-serif;
+    color: #000000;
+    font-weight: 400;
 }
 
 p {
   color: #000000;
+      font-size: 16px;
+    line-height: 26px;
+    font-family: "Poppins", sans-serif;
+    color: #000000;
+    font-weight: 400;
 }
 
 a {
@@ -81,6 +99,11 @@ a {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
   text-decoration: none;
+      font-size: 16px;
+    line-height: 26px;
+    font-family: "Poppins", sans-serif;
+    color: #000000;
+    font-weight: 400;
 
 }
 
@@ -101,7 +124,7 @@ button:focus {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
- /* font-family: "Cormorant", serif;*/
+  font-family: "EB Garamond", serif;
   line-height: 1.4;
   color: #000000;
 }
@@ -299,7 +322,7 @@ Section Title Style
 
 .section-title h2 {
   font-size: 45px;
-  font-family: "Cormorant", serif;
+  font-family: "EB Garamond", serif;
   font-weight: 900;
   margin-top: 5px;
   line-height: 1.2;
@@ -340,13 +363,14 @@ Section Title Style
 }
 
 .section-title-two h2 {
-  font-size: 60px;
-  font-family: "Cormorant", serif;
+  font-size: 35px;
+  font-family: "EB Garamond", serif;
   font-weight: 900;
   margin-top: 5px;
-  line-height: 1.2;
-  max-width: 510px;
+  line-height: 45px;
+  max-width: 100%;
   color: #020d26;
+  margin-bottom: 20px;
 }
 
 .section-title-two h2 b {
@@ -387,6 +411,16 @@ Section Title Style
   background-color: #a21f63;
 }
 
+.section-span-bg3 {
+  position: relative;
+  color: #a21f63;
+}
+
+.section-span-bg3::before {
+  content: '';
+  position: absolute;
+  background-color: #a21f63;
+}
 
 
 .section-span-white {
@@ -953,7 +987,7 @@ Home Slider Area
 .oftop-slider-area .thumbs-wrap .owl-thumbs .owl-thumb-item span {
   color: #9aafc7;
   font-weight: 400;
-  font-family: "Cormorant", serif;
+  font-family: "EB Garamond", serif;
   font-size: 34px;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
@@ -1350,7 +1384,8 @@ Service Area
 
 .service-card {
   background-color: #fbf3e9;
-  padding: 10px 15px 30px 15px;
+/*  padding: 10px 15px 30px 15px;*/
+padding: 35px 20px 20px 20px;
   text-align: left;
   margin-bottom: 30px;
   position: relative;
@@ -1758,8 +1793,8 @@ Gallery Area
   color: #ffffff;
   width: 40px;
   height: 40px;
-  border-radius: 0 7px 0 7px;
-  line-height: 45px;
+  border-radius: 5px;
+  line-height: 40px;
   background-color: #a21f63;
   -webkit-transform: scale(0);
           transform: scale(0);
@@ -1778,7 +1813,7 @@ Gallery Area
   top: 0;
   right: 0;
   bottom: 0;
-  border-radius: 0 7px 0 7px;
+  border-radius: 5px;
   left: 0;
   border: 1px solid #a21f63;
   -webkit-animation: ripple 1s linear 2s infinite;
@@ -1866,7 +1901,7 @@ Property Area
 .property-counter {
   max-width: 820px;
   background-color: #ffffff;
-  border: 5px solid #f0f0f0;
+  border: 2px solid #f0f0f0;
   padding: 0 35px;
   margin-left: -65px;
   margin-top: 40px;
@@ -1949,7 +1984,7 @@ Property Section End
   max-width: 360px;
   padding: 30px;
   background-color: #ffffff;
-  border: 5px solid #f0f0f0;
+  border: 2px solid #f0f0f0;
 }
 
 .single-property .images .property-content span {
@@ -2039,7 +2074,7 @@ Property Section End
 .property-card .content {
   padding: 30px;
   background-color: #ffffff;
-  border: 5px solid #f0f0f0;
+  border: 2px solid #f0f0f0;
 }
 
 .property-card .content span {
@@ -2114,7 +2149,7 @@ Project Area
   margin-left: auto;
   padding: 40px 30px;
   background-color: #ffffff;
-  border: 5px solid #f0f0f0;
+  border: 2px solid #f0f0f0;
   bottom: -100px;
 }
 
@@ -2153,7 +2188,7 @@ Project Area
   font-size: 22px;
   color: #000000;
   font-weight: 600;
-  font-family: "Cormorant", serif;
+  font-family: "EB Garamond", serif;
   padding: 10px 0;
   border-top: 1px dashed #dfdfdf;
   border-bottom: 1px dashed #dfdfdf;
@@ -2163,7 +2198,7 @@ Project Area
 .project-card ul li b {
   font-size: 18px;
   font-weight: 400;
-  font-family: "Cormorant", serif;
+  font-family: "EB Garamond", serif;
   display: inline-block;
   width: 65%;
 }
@@ -2244,7 +2279,7 @@ Development Section
   max-width: 500px;
   padding: 30px;
   background-color: #ffffff;
-  border: 5px solid #f0f0f0;
+  border: 2px solid #f0f0f0;
 }
 
 .development-item .content h3 {
@@ -2567,7 +2602,7 @@ Room Details
   margin-left: auto;
   margin-right: auto;
   background-color: #ffffff;
-  border: 5px solid #f0f0f0;
+  border: 2px solid #f0f0f0;
 }
 
 .room-details-item .room-details-slider:hover .room-details-content a h3 {
@@ -4034,7 +4069,7 @@ Testimonial Area
   right: 0;
   z-index: -1;
   text-align: center;
-  font-family: "Cormorant", serif;
+  font-family: "EB Garamond", serif;
   font-size: 320px;
   color: #edeff1;
 }
@@ -4069,7 +4104,7 @@ Testimonial Area
   left: 0;
   right: 0;
   text-align: center;
-  font-family: "Cormorant", serif;
+  font-family: "EB Garamond", serif;
   font-size: 300px;
   color: #e3dcd4;
 }
@@ -4292,7 +4327,7 @@ Team Area End
 .team-card .content span {
   font-size: 16px;
   color: #ab842a;
-  font-family: "Cormorant", serif;
+  font-family: "EB Garamond", serif;
   font-weight: 700;
 }
 
@@ -4341,7 +4376,7 @@ Apartment Area
   border-bottom: 1px dashed #dfdfdf;
   border-top: 1px dashed #dfdfdf;
   font-size: 20px;
-  font-family: "Cormorant", serif;
+  font-family: "EB Garamond", serif;
   font-weight: 600;
   margin-bottom: 20px;
   position: relative;
@@ -4358,12 +4393,12 @@ Apartment Area
 }
 
 .apartment-list ul li.active {
-  border: 5px solid #f0f0f0;
+  border: 2px solid #f0f0f0;
   padding: 10px;
 }
 
 .apartment-list ul li:hover {
-  border: 5px solid #f0f0f0;
+  border: 2px solid #f0f0f0;
   padding: 10px;
 }
 
@@ -4548,7 +4583,7 @@ Apartment Offer
 
 .offer-item {
   padding: 20px;
-  border: 5px solid #f0f0f0;
+  border: 2px solid #f0f0f0;
   position: relative;
   -webkit-transition: 0.7s;
   transition: 0.7s;
@@ -4853,7 +4888,7 @@ House Details Area
   margin-bottom: 10px;
   border-top: 1px dashed #d7b1a2;
   border-bottom: 1px dashed #d7b1a2;
-  font-family: "Cormorant", serif;
+  font-family: "EB Garamond", serif;
 }
 
 .house-content .house-list li b {
@@ -4960,7 +4995,7 @@ House Details Area
   position: relative;
   z-index: 5;
   margin-right: -85px;
-  border: 5px solid #f0f0f0;
+  border: 2px solid #f0f0f0;
 }
 
 .house-content-two span {
@@ -5009,8 +5044,8 @@ House Details Area
     margin-bottom: 0px;
     border-top: none;
     border-bottom: none;
-    font-family: "Cormorant", serif;
-    font-weight: bold;
+    font-family: "EB Garamond", serif;
+    font-weight: 400;
     margin-top: 0px;
 }
 
@@ -5354,7 +5389,7 @@ Blog Details Area
   top: -150px;
   left: 0;
   font-size: 160px;
-  font-family: "Cormorant", serif;
+  font-family: "EB Garamond", serif;
   font-weight: 700;
   color: #000000;
 }
@@ -5761,6 +5796,7 @@ newsletter Area
 ====================================*/
 .newsletter-area {
   background-color: #fbf3e9;
+      padding: 50px 50px 30px;
 }
 
 .newsletter-content {
@@ -5778,7 +5814,7 @@ newsletter Area
 .newsletter-content h2 {
   display: inline-block;
   font-size: 45px;
-  font-family: "Cormorant", serif;
+  font-family: "EB Garamond", serif;
   text-transform: capitalize;
   font-weight: 900;
   line-height: 1.2;
@@ -5873,7 +5909,7 @@ Map Area
 
 .map-content h2 {
   font-size: 55px;
-  font-family: "Cormorant", serif;
+  font-family: "EB Garamond", serif;
   text-transform: capitalize;
   font-weight: 900;
   margin-top: 5px;
@@ -7222,7 +7258,7 @@ div#footer .section-span-bg2::before {
     color: #a21f63;
     font-weight: 400;
     font-style: italic;
-    font-family: "Cormorant", serif;
+    font-family: "EB Garamond", serif;
 }
 
 div#left-footer {
@@ -7241,7 +7277,7 @@ div#map {
 
 .section-title h3 {
     font-size: 35px;
-    font-family: "Cormorant", serif;
+    font-family: "EB Garamond", serif;
     font-weight: 900;
     margin-top: 5px;
     line-height: 1.2;
@@ -7249,5 +7285,20 @@ div#map {
 }
 
 .room-details-item .room-details-slider .room-details-content h3 {
-    font-family: "Cormorant", serif;
+    font-family: "EB Garamond", serif;
+}
+
+.social-box-data img {
+    width: 35px;
+    height: 35px;
+}
+.social-box-data {
+    position: fixed;
+    right: 0;
+    bottom: 40%;
+    z-index: 99999999;
+}
+
+.social-box-data ul li {
+  list-style: none;
 }
